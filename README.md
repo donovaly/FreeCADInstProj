@@ -1,2 +1,24 @@
 # FreeCADInstProj
 A GitHub project to overcome Windows SmartScreen issues
+
+To build the installer do the following:
+1. extract the source zip-file "FC-standard-installer.zip" to e.g. the path "C:\FreeCAD\Installer"
+2. open the file Settings.nsh with a text editor
+   (the editor jEdit (jedit.org) can be recommended to edit NSIS files)
+   and adapt there the following paths to the ones on your PC:
+   !define FILES_FREECAD "C:\FreeCAD\Installer\FreeCAD"
+   !define FILES_DEPS "C:\FreeCAD\Installer\MSVCRedist"
+3. install the latest version 3.x of NSIS (https://nsis.sourceforge.io/Download)
+4. open the file FindProcDLL Unicode bin.zip (that is part of this bundle),
+   extract from it the file FindProc.dll to the folder \Plugins\x86-unicode of
+   NSIS's installation folder
+5. Copy all FreeCAD files to the folder "~\FreeCAD"
+   e.g. "C:\FreeCAD\Installer\FreeCAD"
+6. right-click on the file FreeCAD-installer.nsi and choose "Compile NSIS script"
+   to compile the installer
+   
+For test builds of the installer you can turn off the compression. This speeds up
+the build time for the installer a lot but increases its file size. The compression
+is disabled by uncommenting the line
+SetCompressor /SOLID lzma
+in the file FreeCAD-installer.nsi.
