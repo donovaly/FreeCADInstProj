@@ -9,7 +9,8 @@ To build the installer do the following:
    !define FILES_FREECAD "C:\FreeCAD\Installer\FreeCAD"
    !define FILES_DEPS "C:\FreeCAD\Installer\MSVCRedist"
 3. install the latest version 3.x of NSIS (https://nsis.sourceforge.io/Download)
-4. open the file FindProcDLL Unicode bin.zip (that is part of this bundle),
+4. download the file FindProcDLL Unicode bin.zip from
+   https://sourceforge.net/projects/findkillprocuni/files/bin/FindProcDLL%20Unicode%20bin.zip/download
    extract from it the file FindProc.dll to the folder \Plugins\x86-unicode of
    NSIS's installation folder
 5. Copy all FreeCAD files to the folder "~\FreeCAD"
