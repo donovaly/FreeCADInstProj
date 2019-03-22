@@ -60,6 +60,8 @@ ${LangFileString} UnFreeCADPreferencesTitle 'Пользовательские н
 
 #${LangFileString} SecUnProgDescription "Удалить менеджер xxx."
 ${LangFileString} SecUnPreferencesDescription 'Удалить настройки FreeCAD$\r$\n\
-						(каталог $\"$AppPre\username\$AppSuff\${APP_DIR_USERDATA}$\"$\r$\n\
+						(каталог $\"$AppPre\username\$\r$\n\
+						$AppSuff\$\r$\n\
+						${APP_DIR_USERDATA}$\")$\r$\n\
 						для вас или для всех пользователей (если вы администратор).'
 ${LangFileString} SecUnProgramFilesDescription "Удалить FreeCAD и все его компоненты."

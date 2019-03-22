@@ -60,6 +60,8 @@ ${LangFileString} UnFreeCADPreferencesTitle 'FreeCADのユーザー設定'
 
 #${LangFileString} SecUnProgDescription "文献管理プログラムxxxの導入解除を行います。"
 ${LangFileString} SecUnPreferencesDescription 'ユーザー共通のFreeCADの設定フォルダ$\r$\n\
-						$\"$AppPre\username\$AppSuff\${APP_DIR_USERDATA}$\"$\r$\n\
+						$\"$AppPre\username\$\r$\n\
+						$AppSuff\$\r$\n\
+						${APP_DIR_USERDATA}$\")$\r$\n\
 						を削除します。'
 ${LangFileString} SecUnProgramFilesDescription "FreeCADとすべての附属コンポーネントの導入解除を行います。"

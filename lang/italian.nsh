@@ -60,6 +60,8 @@ ${LangFileString} UnFreeCADPreferencesTitle 'Impostazioni personali di FreeCAD'
 
 #${LangFileString} SecUnProgDescription "Rimuove xxx."
 ${LangFileString} SecUnPreferencesDescription 'Elimina la cartella con la configurazione di FreeCAD$\r$\n\
-						$\"$AppPre\username\$AppSuff\${APP_DIR_USERDATA}$\"$\r$\n\
+						$\"$AppPre\username\$\r$\n\
+						$AppSuff\$\r$\n\
+						${APP_DIR_USERDATA}$\")$\r$\n\
 						per tutti gli utenti.'
 ${LangFileString} SecUnProgramFilesDescription "Rimuove FreeCAD e tutti i suoi componenti."

@@ -60,6 +60,8 @@ ${LangFileString} UnFreeCADPreferencesTitle 'Preferensi pengguna FreeCAD'
 
 #${LangFileString} SecUnProgDescription "Penghapusan program xxx."
 ${LangFileString} SecUnPreferencesDescription 'Menghapus berkas konfigurasi FreeCAD pada folder$\r$\n\
-						$\"$AppPre\username\$AppSuff\${APP_DIR_USERDATA}$\"$\r$\n\
+						$\"$AppPre\username\$\r$\n\
+						$AppSuff\$\r$\n\
+						${APP_DIR_USERDATA}$\")$\r$\n\
 						untuk semua pengguna.'
 ${LangFileString} SecUnProgramFilesDescription "Penghapusan FreeCAD serta semua komponen yang ada."

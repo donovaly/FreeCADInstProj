@@ -60,6 +60,8 @@ ${LangFileString} UnFreeCADPreferencesTitle 'تفضيلات مستخدم ليك'
 
 #${LangFileString} SecUnProgDescription "إزالة مدير ثبت المراجع xxx."
 ${LangFileString} SecUnPreferencesDescription 'حذف FreeCAD$\'s ضبط$\r$\n\
-						(مجلد $\"$AppPre\username\$AppSuff\${APP_DIR_USERDATA}$\"$\r$\n\
+						(مجلد $\"$AppPre\username\$\r$\n\
+						$AppSuff\$\r$\n\
+						${APP_DIR_USERDATA}$\")$\r$\n\
 						لك او لكل المستخدمين (إذا كنت المدير).'
 ${LangFileString} SecUnProgramFilesDescription "إزالة ليك مع كل مكوناته."

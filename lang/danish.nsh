@@ -60,6 +60,8 @@ ${LangFileString} UnFreeCADPreferencesTitle 'FreeCAD$\'s user preferences'
 
 #${LangFileString} SecUnProgDescription 'Afinstallerer programmet $\"xxx$\".'
 ${LangFileString} SecUnPreferencesDescription 'Sletter FreeCAD$\'s konfigurations mappe$\r$\n\
-						$\"$AppPre\username\$AppSuff\${APP_DIR_USERDATA}$\"$\r$\n\
+						$\"$AppPre\username\$\r$\n\
+						$AppSuff\$\r$\n\
+						${APP_DIR_USERDATA}$\")$\r$\n\
 						for alle brugere.'
 ${LangFileString} SecUnProgramFilesDescription "Afinstallerer FreeCAD og alle dets komponenter."

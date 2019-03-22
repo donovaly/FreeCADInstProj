@@ -60,6 +60,8 @@ ${LangFileString} UnFreeCADPreferencesTitle 'Préférences utilisateurs de FreeC
 
 #${LangFileString} SecUnProgDescription "Désinstalle le gestionnaire de bibliographie xxx."
 ${LangFileString} SecUnPreferencesDescription 'Supprime le répertoire de configuration de FreeCAD$\r$\n\
-						$\"$AppPre\username\$AppSuff\${APP_DIR_USERDATA}$\"$\r$\n\
+						$\"$AppPre\username\$\r$\n\
+						$AppSuff\$\r$\n\
+						${APP_DIR_USERDATA}$\")$\r$\n\
 						pour tous les utilisateurs.'
 ${LangFileString} SecUnProgramFilesDescription "Désinstaller FreeCAD et tous ses composants."

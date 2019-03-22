@@ -60,6 +60,8 @@ ${LangFileString} UnFreeCADPreferencesTitle 'FreeCADove užívateľské nastaven
 
 #${LangFileString} SecUnProgDescription "Odinštaluje xxx."
 ${LangFileString} SecUnPreferencesDescription 'Odstráni konfiguračný adresár FreeCADu $\r$\n\
-						$\"$AppPre\username\$AppSuff\${APP_DIR_USERDATA}$\"$\r$\n\
+						$\"$AppPre\username\$\r$\n\
+						$AppSuff\$\r$\n\
+						${APP_DIR_USERDATA}$\")$\r$\n\
 						pre všetkých užívateľov (keď máte administrátorské práva).'
 ${LangFileString} SecUnProgramFilesDescription "Odinštaluj FreeCAD a všetky jeho súčiastky."

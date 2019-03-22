@@ -60,6 +60,8 @@ ${LangFileString} UnFreeCADPreferencesTitle 'FreeCAD-eko erabiltzailearen hobesp
 
 #${LangFileString} SecUnProgDescription "xxx kudeatzailea desinstalatzen du."
 ${LangFileString} SecUnPreferencesDescription 'FreeCAD-en konfigurazioa ezabatzen du$\r$\n\
-						($\"$AppPre\erabiltzailea\$AppSuff\${APP_DIR_USERDATA}$\"$\r$\n\
+						($\"$AppPre\erabiltzailea\$\r$\n\
+						$AppSuff\$\r$\n\
+						\${APP_DIR_USERDATA}$\"$\r$\n\
 						zuretzako edo erabiltzaile guztientzako (administratzailea bazara).'
 ${LangFileString} SecUnProgramFilesDescription "Desinstalatu FreeCAD eta bere osagai guztiak."

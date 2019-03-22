@@ -60,6 +60,8 @@ ${LangFileString} UnFreeCADPreferencesTitle 'Preferinţele utilizatorului pentru
 
 #${LangFileString} SecUnProgDescription "Dezinstalează xxx."
 ${LangFileString} SecUnPreferencesDescription 'Şterge directorul cu setările FreeCAD$\r$\n\
-						$\"$AppPre\username\$AppSuff\${APP_DIR_USERDATA}$\"$\r$\n\
+						$\"$AppPre\username\$\r$\n\
+						$AppSuff\$\r$\n\
+						${APP_DIR_USERDATA}$\")$\r$\n\
 						pentru toţi utilizatorii.'
 ${LangFileString} SecUnProgramFilesDescription "Dezinstalaţi programul FreeCAD şi toate componentele lui."

@@ -60,6 +60,8 @@ ${LangFileString} UnFreeCADPreferencesTitle 'FreeCAD$\'s user preferences'
 
 #${LangFileString} SecUnProgDescription "Verwijder xxx."
 ${LangFileString} SecUnPreferencesDescription 'Verwijder FreeCAD$\'s configuratie map$\r$\n\
-						$\"$AppPre\username\$AppSuff\${APP_DIR_USERDATA}$\"$\r$\n\
+						$\"$AppPre\username\$\r$\n\
+						$AppSuff\$\r$\n\
+						${APP_DIR_USERDATA}$\")$\r$\n\
 						voor alle gebruikers.'
 ${LangFileString} SecUnProgramFilesDescription "Verwijder FreeCAD en alle bijbehorende onderdelen."

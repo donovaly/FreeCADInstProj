@@ -60,6 +60,8 @@ ${LangFileString} UnFreeCADPreferencesTitle 'FreeCAD felhasználói beállítás
 
 #${LangFileString} SecUnProgDescription "xxx eltávolítása."
 ${LangFileString} SecUnPreferencesDescription 'A  FreeCAD beállítások mappa törlése$\r$\n\
-						$\"$AppPre\username\$AppSuff\${APP_DIR_USERDATA}$\"$\r$\n\
+						$\"$AppPre\username\$\r$\n\
+						$AppSuff\$\r$\n\
+						${APP_DIR_USERDATA}$\")$\r$\n\
 						minden felhasználónál.'
 ${LangFileString} SecUnProgramFilesDescription "A FreeCAD és minden komponensének eltávolítása."

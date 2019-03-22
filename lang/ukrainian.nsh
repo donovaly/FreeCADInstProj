@@ -60,6 +60,8 @@ ${LangFileString} UnFreeCADPreferencesTitle 'Параметри FreeCAD, вст�
 
 #${LangFileString} SecUnProgDescription "Вилучає xxx."
 ${LangFileString} SecUnPreferencesDescription 'Вилучає теку з налаштуваннями FreeCAD$\r$\n\
-						$\"$AppPre\username\$AppSuff\${APP_DIR_USERDATA}$\"$\r$\n\
+						$\"$AppPre\username\$\r$\n\
+						$AppSuff\$\r$\n\
+						${APP_DIR_USERDATA}$\")$\r$\n\
 						для всіх користувачів.'
 ${LangFileString} SecUnProgramFilesDescription "Вилучити FreeCAD і всі його компоненти."

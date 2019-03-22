@@ -60,6 +60,8 @@ ${LangFileString} UnFreeCADPreferencesTitle 'Preferéncias de usuário do FreeCA
 
 #${LangFileString} SecUnProgDescription "Desinstala xxx."
 ${LangFileString} SecUnPreferencesDescription 'Elimina as pastas de configuración do  FreeCAD$\r$\n\
-						$\"$AppPre\username\$AppSuff\${APP_DIR_USERDATA}$\"$\r$\n\
+						$\"$AppPre\username\$\r$\n\
+						$AppSuff\$\r$\n\
+						${APP_DIR_USERDATA}$\")$\r$\n\
 						de todos os usuários.'
 ${LangFileString} SecUnProgramFilesDescription "Desinstala FreeCAD e todos os seus componentes."
