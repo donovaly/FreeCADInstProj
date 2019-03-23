@@ -23,9 +23,6 @@ ManifestDPIAware true
 # declarations of FreeCAD's registry keys
 !include include\declarations.nsh
 
-# definitions of global variables
-!include include\variables.nsh
-
 # Multi-User settings
 !define MULTIUSER_EXECUTIONLEVEL Highest
 !define MULTIUSER_INSTALLMODE_COMMANDLINE
