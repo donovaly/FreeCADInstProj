@@ -1,18 +1,13 @@
 ﻿/*
-
 declaration.nsh
 
-Configuration of FreeCAD installer
-
+Configuration and variables of FreeCAD installer
 */
 
 #--------------------------------
 # File locations
 
 !define FILES_LICENSE "license.rtf"
-
-#--------------------------------
-# Locations of components to download
 
 #--------------------------------
 # Names and version
@@ -60,3 +55,21 @@ Configuration of FreeCAD installer
 !define SETUP_WIZARDIMAGE "graphics\orange.bmp"
 !define SETUP_UNINSTALLER "Uninstall-${APP_NAME}.exe"
 !define SETUP_UNINSTALLER_KEY "${APP_NAME}${APP_SERIES_KEY}"
+
+#--------------------------------
+# Variables that are shared between multiple files
+
+Var APPDATemp
+Var AppPre
+var AppSubfolder
+Var AppSuff
+Var CreateDesktopIcon
+Var CreateFileAssociations
+Var OldVersionNumber
+Var Pointer
+Var Search
+Var SVGPath
+Var StartmenuFolder
+Var String
+Var UserList
+Var LangName
