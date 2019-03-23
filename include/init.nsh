@@ -69,11 +69,6 @@ Function .onInit
    Abort
   ${endif}
   
-  # read the user and computer name
-  ReadRegStr $ComputerName HKLM "System\CurrentControlSet\Control\ComputerName\ActiveComputerName" "ComputerName"
-  System::Call "advapi32::GetUserName(t .r0, *i ${NSIS_MAX_STRLEN} r1) i.r2"
-  StrCpy $UserName $0
-  
   # initialize the multi-uder installer UI
   !insertmacro MULTIUSER_INIT
   
