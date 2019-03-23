@@ -62,9 +62,13 @@ SectionEnd
 # user preferences
 Section /o "un.$(UnFreeCADPreferencesTitle)" un.SecUnPreferences
 
+ # issue a warning dialog
+ MessageBox MB_YESNO|MB_DEFBUTTON2|MB_ICONEXCLAMATION $(DialogUnPreferences) /SD IDYES IDYES +2 # continue if yes
+  Goto NotPreferences
  # remove FreeCAD's config files
  StrCpy $AppSubfolder ${APP_DIR_USERDATA}
  Call un.DelAppPathSub # function from Utils.nsh
+ NotPreferences:
  # remove registry settings
  DeleteRegKey HKCU "Software\${APP_NAME}\${APP_NAME}${APP_SERIES_NAME}"
   
