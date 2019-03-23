@@ -76,3 +76,6 @@ ManifestDPIAware true
 # Output file
 
 Outfile "${SETUP_EXE}"
+
+# sign the installer executable
+!finalize '${FILES_SIGN} ${SETUP_EXE}'
