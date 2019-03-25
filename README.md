@@ -7,8 +7,7 @@ To build the installer do the following:
    (the editor jEdit (jedit.org) can be recommended to edit NSIS files)
    and adapt there the following paths to the ones on your PC, e.g.:</br>
    !define FILES_FREECAD "C:\FreeCAD\Installer\FreeCAD"</br>
-   !define FILES_DEPS "C:\FreeCAD\Installer\MSVCRedist"</br>
-   !define FILES_SIGN "C:\FreeCAD\Installer\signing.bat"
+   !define FILES_DEPS "C:\FreeCAD\Installer\MSVCRedist"
 3. install the latest version 3.x of NSIS (https://nsis.sourceforge.io/Download)
 4. download the file FindProcDLL Unicode bin.zip from</br>
    https://sourceforge.net/projects/findkillprocuni/files/bin/FindProcDLL%20Unicode%20bin.zip/download </br>
@@ -17,9 +16,7 @@ To build the installer do the following:
    NSIS's installation folder.
 5. copy all FreeCAD files to the folder "~\FreeCAD"
    e.g. "C:\FreeCAD\Installer\FreeCAD"
-6. open the file "Signing.bat" with a text editor and adapt there the path to the
-   signtool.exe and to the file FCweborg.pfx
-7. right-click on the file FreeCAD-installer.nsi and choose "Compile NSIS script"
+6. right-click on the file FreeCAD-installer.nsi and choose "Compile NSIS script"
    to compile the installer
 
 For test builds of the installer you can turn off the compression. This speeds up
