@@ -87,7 +87,7 @@ Function .onInit
    # check if the uninstaller was acidentally deleted
    # if so don't bother the user if he realy wants to install a new FreeCAD over an existing one
    # because he won't have a chance to deny this
-   StrCpy $4 $0 -14 # remove '\bin\FreeCAD,0'
+   StrCpy $4 $0 -16 # remove '\bin\FreeCAD.exe'
    # (for FileCheck the variables $0 and $1 cannot be used)
    !insertmacro FileCheck $5 "Uninstall-${APP_NAME}.exe" "$4" # macro from Utils.nsh
    ${if} $5 == "False"
