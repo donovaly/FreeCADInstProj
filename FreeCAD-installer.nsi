@@ -7,9 +7,6 @@ Compatible with NSIS 3.x
 # Do a Cyclic Redundancy Check to make sure the installer
 # was not corrupted by the download.
 CRCCheck force
-#
-# Make the installer as small as possible
-SetCompressor /SOLID lzma
 
 # make it a Unicode installer
 Unicode true
@@ -26,8 +23,6 @@ ManifestDPIAware true
 # Multi-User settings
 !define MULTIUSER_EXECUTIONLEVEL Highest
 !define MULTIUSER_INSTALLMODE_COMMANDLINE
- # use 64bit program folder as default instllation folder
- !define MULTIUSER_USE_PROGRAMFILES64
 !define MULTIUSER_INSTALLMODE_DEFAULT_REGISTRY_KEY "${APP_REGKEY}"
 !define MULTIUSER_INSTALLMODE_DEFAULT_REGISTRY_VALUENAME ""
 
