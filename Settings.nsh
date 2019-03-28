@@ -32,7 +32,7 @@ SetCompressor /SOLID lzma
 
 !define ExeFile "${APP_NAME}-${APP_VERSION_MAJOR}${APP_VERSION_MINOR}${APP_VERSION_REVISION}${APP_VERSION_EMERGENCY}-Installer-${APP_VERSION_BUILD}.exe"
 
-#------------------------
+#--------------------------------
 # installer bit type - for a 32bit or 64bit FreeCAD
 
 # just comment this line for a 32bit installer:
