@@ -65,7 +65,7 @@ ${LangFileString} SecUnPreferencesDescription 'Löscht FreeCADs Benutzereinstell
 						$AppSuff\$\r$\n\
 						${APP_DIR_USERDATA}$\")$\r$\n\
 						für Sie oder für alle Benutzer (wenn Sie Admin sind).'
-${LangFileString} DialogUnPreferences 'Sie haben ausgewählt die FreeCADs Benutzereinstellungen zu löschen.$\r$\n\
-						Dies wird auch alle installierten FreeCAD Addons löschen.$\r$\n\
+${LangFileString} DialogUnPreferences 'Sie haben ausgewählt, die FreeCAD-Benutzereinstellungen zu löschen.$\r$\n\
+						Dies wird auch alle installierten FreeCAD-Addons löschen.$\r$\n\
 						Sind Sie damit einverstanden?'
 ${LangFileString} SecUnProgramFilesDescription "Deinstalliert FreeCAD und all seine Komponenten."
