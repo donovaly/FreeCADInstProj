@@ -33,7 +33,7 @@ ManifestDPIAware true
 !define MULTIUSER_INSTALLMODE_FUNCTION InitUser
 !define MULTIUSER_MUI
 
-# Standard header files
+# included NSIS files
 !include MUI2.nsh
 !include LogicLib.nsh
 !include Sections.nsh
@@ -42,6 +42,8 @@ ManifestDPIAware true
 !include MultiUser.nsh
 !include InstallOptions.nsh
 !include x64.nsh
+# load the nsPprocess plugin
+!include nsProcess.nsh
 
 # Set of various macros and functions
 !include include\utils.nsh
