@@ -5,7 +5,7 @@
 4. Open the file in a text editor
 5. Run Windows' 'certutil' utility in the command line, e.g.:
 
-certutil -hashfile FreeCAD-0.19.3-WIN-x64-installer-1.exe SHA256
+certutil -hashfile FreeCAD-0.19.4-WIN-x64-installer-1.exe SHA256
 
 6. Copy the resulting hash from the command line to the file
 7. Update file size and filename in the file 
